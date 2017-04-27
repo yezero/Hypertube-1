@@ -12,12 +12,12 @@ module.exports = {
         client_id: 'XXX',
         client_secret: 'XXX',
         grant_type: 'authorization_code',
-        redirect_uri: 'http://XXX.XXX?from=Ecole42'
+        redirect_uri: 'http://107.170.35.172?from=Ecole42'
     },
     'github' : {
-        client_id: 'XXX',
-        client_secret: 'XXX',
-        redirect_uri: 'http://XXX.XXX'
+        client_id: 'bbb90e851a575c721804',
+        client_secret: 'e6beb1592e6113d8efa2c593ebd3d1041849445c',
+        redirect_uri: 'http://107.170.35.172'
     },
     'slack' : {
         client_id: 'XXX',
@@ -27,7 +27,7 @@ module.exports = {
         client_id: "XXX",
         client_secret: 'XXX',
         grant_type: 'authorization_code',
-        redirect_uri: 'http://XXX.XXX?from=Linkedin'
+        redirect_uri: 'http://107.170.35.172/?from=Linkedin'
     }
 };
 
