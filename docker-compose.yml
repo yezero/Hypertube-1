@@ -30,7 +30,7 @@ back:
     links:
         - mongo:mongo
     environment:
-        - ipHost=XXX.XXX
+        - ipHost=107.170.35.172
         - apiPort=4201
         - dbPort=4202
         - mailPort=4203
@@ -55,7 +55,7 @@ search:
     links:
         - mongo:mongo
     environment:
-        - ipHost=XXX.XXX
+        - ipHost=107.170.35.172
         - apiPort=4201
         - dbPort=4202
         - mailPort=4203
