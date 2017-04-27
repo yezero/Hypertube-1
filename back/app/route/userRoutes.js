@@ -12,8 +12,8 @@ const User = require('../model/User.js');
 module.exports = (app) => {
 
     app.post('/User/signUp', guestOnly, function (req, res) {
-        var required = ['pseudo', 'email', 'password', 'lastName', 'firstName', 'base64'];
-        var optional = ['lang'];
+        var required = ['pseudo', 'password', 'lastName', 'firstName', 'base64'];
+        var optional = ['lang', 'email'];
         req.body.lang = req.body.lang ? req.body.lang : 'en';
         Checker.daddyCheck(required, optional, req.body, res)
             .then(Parser.daddyParse)
