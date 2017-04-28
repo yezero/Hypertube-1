@@ -34,7 +34,6 @@ module.exports = (app) => {
     app.post('/User/signIn', guestOnly, function (req, res) {
         var required = ['pseudo', 'pass'];
         Checker.daddyCheck(required, null, req.body, res)
-            .then(User.checkEmailVerifyAndOmniauth)
             .then(User.connect)
             .then(function (object) {
                 object.res.send({
