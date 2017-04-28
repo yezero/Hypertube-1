@@ -308,9 +308,9 @@ const argsCheckList = {
         fct: none
     },
     "authWay": {
-        'Facebook': ['4f23c40ecec3cf36b887a764ccd31faf', '697952477073994'],
+        'Facebook': ['accessToken', 'clientId'],
         'Ecole42': ['ecole42Token'],
-        'Github': ['e6beb1592e6113d8efa2c593ebd3d1041849445c'],
+        'Github': ['githubToken'],
         'Slack': ['slackToken'],
         'Linkedin': ['linkedinToken']
     }
