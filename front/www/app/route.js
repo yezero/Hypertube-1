@@ -33,7 +33,7 @@ angular
                 controller: 'signOutController',
                 access: {
                     redirection: '/sign',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .when('/sign/:emailToken?', {
@@ -49,7 +49,7 @@ angular
                 controller: 'emailTokenController',
                 access: {
                     redirection: '/',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .when('/profil', {
@@ -57,7 +57,7 @@ angular
                 controller: 'profilController',
                 access: {
                     redirection: '/sign',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .when('/profil/:pseudo', {
@@ -65,7 +65,7 @@ angular
                 controller: 'profilController',
                 access: {
                     redirection: '/sign',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .when('/', {
@@ -73,7 +73,7 @@ angular
                 controller: 'searchController',
                 access: {
                     redirection: '/sign',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .when('/t/:imdbToken', {
@@ -81,7 +81,7 @@ angular
                 controller: 'searchController',
                 access: {
                     redirection: '/sign',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .when('/player/:idMovie', {
@@ -89,7 +89,7 @@ angular
                 controller: 'playerController',
                 access: {
                     redirection: '/sign',
-                    rule: 'onlyMember'
+                    rule: 'onlyGuest'
                 }
             })
             .otherwise({redirectTo : '/sign'});
