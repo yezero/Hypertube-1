@@ -1,5 +1,5 @@
 //SEUL ET UNIQUE VARIABLE CHANGER SI TU CHANGE d'HOST ! #RobinTuViensDeGagner3Secondes
-const HOST = '107.170.35.172';
+const HOST = 'http://app.tunepods.com';
 //CEST PAS VRAI YA AUSSI CELLE DE LINDEX
 //====================================================================================
 
