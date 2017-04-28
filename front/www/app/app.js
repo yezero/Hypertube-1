@@ -21,7 +21,7 @@ app.config(function ($sceDelegateProvider) {
         'http://' + HOST + ':5003/**',
         'http://' + HOST + ':4201/**',
         'https://googleads.g.doubleclick.net/pagead/id',
-        'https//www.facebook.com/**',
+        'https://www.facebook.com/**',
         'https://apis.google.com/**'
     ]);
 });
