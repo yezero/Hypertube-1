@@ -5,7 +5,7 @@
 var mailList = {
     "newUser": {
         subject: {
-            en: "Welcome on Hypertube !",
+            en: "Welcome on ThurlyTube !",
             fr: "Bienvenue sur hypertube !"
         },
         text: {
@@ -17,7 +17,7 @@ var mailList = {
     },
     "newMail": {
         subject: {
-            en: "Hypertube new mail confirmation",
+            en: "Thurly new mail confirmation",
             fr: "Confirmation du nouvel email Hypertube"
         },
         text: {
@@ -29,7 +29,7 @@ var mailList = {
     },
     "newPass": {
         subject: {
-            en: "Hypertube new password",
+            en: "Thurly new password",
             fr: "Hypertube: nouveau mot de passe"
         },
         text: {
