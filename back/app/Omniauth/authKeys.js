@@ -12,7 +12,7 @@ module.exports = {
         client_id: 'XXX',
         client_secret: 'XXX',
         grant_type: 'authorization_code',
-        redirect_uri: 'http://107.170.35.172?from=Ecole42'
+        redirect_uri: 'http://107.170.35.172/?from=Ecole42'
     },
     'github' : {
         client_id: 'bbb90e851a575c721804',
